@@ -50,7 +50,7 @@ def make_transaction():
 
 @app.route('/view/transactions')
 def view_transaction():
-    return render_template('./view_transaction.html')
+    return render_template('./view_transactions.html')
 
 @app.route('/wallet/new', methods=['GET'])
 def new_wallet():
