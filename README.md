@@ -9,6 +9,21 @@ The github repository includes a Python-based basic implementation of a blockcha
 
 - RSA encrypted transactions
 
+
+The blockchain client includes the following capabilities:
+
+- Public/Private key encryption (based on the RSA technique) is used to create wallets.
+
+- Transaction generation with RSA encryption
+
+
+There are additional two dashboards in this github repository:
+
+- "Blockchain Frontend" for miners
+
+- Users can use the "Blockchain Client" to create wallets and send bitcoin.
+
+
 ## Instructions to run the code:
 1. Install all the dependancy using below command.
 ```
@@ -28,3 +43,7 @@ python blockchain.py -p 5001
 python blockchain_client.py -p 8080
 ```
 5. By visiting to localhost:5000 and localhost:8080 in your browser, you can access the blockchain frontend and blockchain client dashboards.
+
+
+### Credits
+https://github.com/adilmoujahid/blockchain-python-tutorial/tree/master
