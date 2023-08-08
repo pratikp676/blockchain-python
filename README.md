@@ -1,7 +1,7 @@
 # Overview:
 The github repository includes a Python-based basic implementation of a blockchain and its client. This blockchain includes the following features:
 
-The ability to add extra nodes to the blockchain
+- The ability to add extra nodes to the blockchain
 
 - Proof of Work (PoW)
 
