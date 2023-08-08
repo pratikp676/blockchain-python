@@ -81,7 +81,7 @@ class Blockchain:
         block = {
             'block_number': len(self.chain)+1,
             'timestamp': time(),
-            'transaction': self.transactions,
+            'transactions': self.transactions,
             'nonce': nonce,
             'previous_hash': previous_hash
         }
@@ -310,5 +310,5 @@ if __name__ == '__main__':
     port = args.port
 
     app.run(host='127.0.0.1',port=port)
-    
+
 
